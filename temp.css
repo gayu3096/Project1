@@ -1,0 +1,242 @@
+h3{
+  font-family: 'Open Sans';
+  color: silver;
+  padding-left: 300px;
+  font-size: 30px;
+}
+.container{
+    width:100%;
+    height: 550px;
+    margin-top: 30px;
+    background-color: rgb(223, 67, 10);
+    font-family: 'Open Sans';
+    padding-left: 300px;
+    padding-top: 50px;
+    color: white;
+  }
+.anchor{
+  color: white;
+}
+.button2{
+  background-color: transparent;
+  cursor: pointer;
+  border-color: white;
+}
+.button2:hover{
+  -webkit-text-fill-color: rgb(223,67,10);
+  background-color: white;
+}
+.fade-in-image{
+  position: relative;
+  left: 450px;
+  bottom:380px;
+  animation: fade-in-image 5s;
+  animation-fill-mode: forwards;
+}
+@keyframes fade-in-image{
+  from{opacity:0;}
+  to{opacity:1;}
+}
+.bg{
+  background-color: rgba(201, 195, 195, 0.795);
+  height: 900px;
+  width: 100%;
+  display: flex;
+  font-family: 'Open Sans';
+}
+.img{
+  padding-left: 250px;
+  padding-top: 100px;
+  display: flex;
+  margin-top: 50px;
+}
+.content{
+  background-color: white;
+  width: 400px;
+  height: 440px;
+  padding: 35px;
+  word-spacing: 20px;
+  line-height: 28px;
+  margin-top: 150px;
+  font-family: 'Open Sans';
+}
+.box{
+  display: inline-block;
+}
+button{
+  cursor: pointer;
+  width: 170px;
+  height: 50px;
+  border-radius: 30px;
+  border-color: rgb(223, 67, 10);
+  border-width:3px;
+  background-color: transparent;
+  font-family: 'Open Sans';
+}
+button:hover{
+  -webkit-text-fill-color: white;
+  background-color: black;
+  border-radius: 30px;
+  border-color: transparent;
+  font-family: 'Open Sans';
+}
+.left{
+    width: 450px;
+    height: 170px;
+    margin-top: 85px;
+    background-color: rgb(223, 67, 10);
+    position: relative;
+    top:300px;
+    right: 600px;
+}
+.right{
+  width: 450px;
+  height: 270px;
+  margin-top: 85px;  
+  background-color: rgb(223, 67, 10);
+}
+.last{
+  background-color: rgba(201, 195, 195, 0.795);
+  height: 2500px;
+  width: 100%;
+  font-family: 'Open Sans';
+}
+.img1{
+  position: relative;
+  bottom:500px;
+  margin-left: 320px; 
+}
+.rectangle{
+  width: 1090px;
+  height: 450px;
+  background-color: rgb(223, 67, 10);
+  margin-left: 220px;
+  position: relative;
+  right: 20px;
+  top:200px;
+}
+.content1{
+  position: absolute;
+  top:1880px;
+  left:150px;
+  background-color: white;
+  width: 500px;
+  height: 380px;
+  padding: 35px;
+  word-spacing: 20px;
+  line-height: 28px;
+}
+.button1{
+  cursor: pointer;
+  width: 170px;
+  height: 50px;
+  border-radius: 30px;
+  border-color: rgb(223, 67, 10);
+  border-width:3px;
+  background-color: transparent;
+}
+.button1:hover{
+  -webkit-text-fill-color: white;
+  background-color: black;
+  border-radius: 30px;
+  border-color: transparent;
+}
+#pizza{
+  word-spacing: 5px;
+}
+.wrap{
+  display:flex;
+}
+.text1{
+  width: 450px;
+  height: 450px;
+  margin-left: 200px;
+  word-spacing: 5px;
+  display: inline-block;
+  font-family: 'Open Sans';
+  padding-bottom: 50px;
+  animation-duration: 2s;
+  animation-name: left;
+  animation-fill-mode: forwards;
+}
+  @keyframes left{
+    from{
+      opacity:0;
+    }
+    to{
+      opacity:1;
+    }
+  }  
+h2{
+  color: rgb(223, 67, 10);
+}
+.text2{
+  width: 450px;
+  height: 450px;
+  margin-left: 200px;
+  word-spacing: 5px;
+  font-family: 'Open Sans';
+  animation-duration: 2s;
+  animation-name: right;
+}
+@keyframes right{
+  from{
+    margin-left: 70%;
+  }
+  to{
+    margin-left:5%;
+  }
+}
+h2{
+  color: rgb(223, 67, 10);
+}
+.lastimage{
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+}
+.greybox{
+ width: 200%; 
+  height: 280px;
+  background-color: rgba(22, 22, 22, 0.795);
+position: relative;
+bottom: 218px;
+}
+.one{
+  width: 200px;
+  height: 170px;
+  display: inline-block;
+  background-color: white;
+  position: relative;
+  bottom:410px;
+  left:400px;
+  padding:10px;
+  text-align: center;
+  word-spacing: 2px;
+  line-height: 25px;
+}
+.two{
+  width: 200px;
+  height: 170px;
+  display: inline-block;
+  background-color: white;
+  position: relative;
+  bottom:385px;
+  left:450px;
+  padding:10px;
+  text-align: center;
+  word-spacing: 2px;
+  line-height: 25px;
+}
+.three{
+  width: 180px;
+  height: 150px;
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  bottom:415px;
+  left:500px;
+  padding:20px;
+  text-align: center;
+  word-spacing: 2px;
+}
